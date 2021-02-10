@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">球球快跑</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">球球快跑</string>
+    <string name="wait">正在加载，请稍后....</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="information">确定要退出游戏吗？</string>
+    <string name="playername">昵称：</string>
+    <string name="hint">请输入玩家昵称</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_queue">Waiting</string>
+    <string name="set1">-背景音乐</string>
+    <string name="set2">-游戏音效</string>
+    <string name="set3">修改</string>
+    <string name="set4">返 回</string>
+    <string name="set5">退 出</string>
+    <string name="set6">服务器状态:</string>
+    <string name="set7">皮肤设置</string>
+    <string name="set8">刷新</string>
+    <string name="find">正在寻找对局，请稍后..</string>
+    <color name="color1">#FFE4C4</color>
+    <color name="color2">#FF0000</color>
+    <color name="color3">#f4f4f4</color>
+    <color name="color4">#e0ffff</color>
+    <color name="color5">#cdbe70</color>
+    <color name="color6">#bfefff</color>
+    <color name="color7">#add8e6</color>
+    <color name="color8">#97ffff</color>
+    <color name="color9">#90ee90</color>
+</resources>

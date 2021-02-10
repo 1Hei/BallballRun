@@ -1,0 +1,205 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    android:gravity="top"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:stretchColumns="0,7"
+    tools:context="com.example.ballballbattle.SettingActivity" >
+
+    <TableRow 
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+        <TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"/>
+    </TableRow>
+    
+	<TableRow 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+		<CheckBox
+		    android:id="@+id/checkBox1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/set1" 
+		    style="@style/CustomCheckBoxTheme"
+		    android1:checked="true"/>
+	</TableRow>
+	
+	<TableRow 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+		<SeekBar
+		    android:id="@+id/seekBar1"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android1:max="100"
+	    	android:progress="70"  />
+	</TableRow>
+	
+	<TableRow 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+		<TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" />
+	</TableRow>
+	
+	<TableRow 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+		<CheckBox
+		    android:id="@+id/checkBox2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/set2" 
+		    style="@style/CustomCheckBoxTheme"
+		    android1:checked="true"/>
+	</TableRow>
+
+	<TableRow 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	<SeekBar
+	    android:id="@+id/seekBar2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android1:max="100"
+	    android:progress="70" />
+	</TableRow>
+	
+	<TableRow 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+		<TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" />
+	</TableRow>
+	
+	<LinearLayout 
+	   	android1:gravity="left" 
+	   	android:layout_width="fill_parent"
+	   	android:layout_height="wrap_content">
+
+	    <TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android1:textSize="18sp"
+		    android1:text="@string/set6"/>
+
+        <TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android1:textSize="16sp"
+		    android1:id="@+id/servertext" />
+        
+        <ImageView
+	        android1:id="@+id/link"
+	        android1:layout_width="wrap_content"
+	        android1:layout_height="wrap_content"
+	        android1:src="@drawable/duankai" />
+    </LinearLayout>
+    
+	<LinearLayout 
+	   	android1:gravity="right" 
+	   	android:layout_width="fill_parent"
+	   	android:layout_height="wrap_content">
+		<Button
+		    android:id="@+id/button2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:drawableLeft="@drawable/flash"
+		    android:text="@string/set8" />
+	</LinearLayout>
+    
+	<TableRow 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+		<TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" />
+	</TableRow>
+	
+	<TableRow 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	<EditText
+	    android:id="@+id/editText1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/bg_edittext"
+	    android:ems="10"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true" >
+	</EditText>
+	</TableRow>
+	
+	<TableRow 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	<LinearLayout 
+	   	android1:gravity="right" 
+	   	android:layout_width="fill_parent"
+	   	android:layout_height="wrap_content">
+		<Button
+		    android:id="@+id/button1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:drawableLeft="@drawable/modify"
+		    android:text="@string/set3" />
+	</LinearLayout>
+	</TableRow>
+	
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content">
+		<Gallery
+		    android1:id="@+id/gallery1"
+		    android1:layout_width="fill_parent"
+		    android1:layout_height="wrap_content"
+		    android:animationDuration="3000"
+        	android:spacing="3dp"
+        	android:unselectedAlpha="0.5" />
+	</LinearLayout>
+	
+	<TableRow 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+		<TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" />
+	</TableRow>
+	
+	<ImageView
+		    android1:id="@+id/chooseImg"
+		    android1:layout_width="wrap_content"
+		    android1:layout_height="80dp"
+		    android1:src="@drawable/icon1" />
+
+	<LinearLayout 
+	   	android:layout_width="wrap_content"
+	   	android:layout_height="fill_parent"
+	   	android:gravity="bottom"
+	   	android1:orientation="horizontal" >
+	<Button
+	    android1:id="@+id/button3"
+	    android1:layout_width="wrap_content"
+	    android1:layout_height="wrap_content"
+	    android:drawableLeft="@drawable/home"
+	    android1:text="@string/set4" />
+
+	<Button
+	    android1:id="@+id/button4"
+	    android1:layout_width="wrap_content"
+	    android1:layout_height="wrap_content"
+	    android1:drawableLeft="@drawable/quit"
+	    android1:text="@string/set5" />
+	</LinearLayout>
+
+</TableLayout>
